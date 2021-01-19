@@ -96,9 +96,9 @@ def main():
             # Size of an img
     input_size = 416
             # Output path, you can give your own path
-    output = "data/images/output1"
+    output = "data/images/output"
             # My trained model path
-    model_path = "checkpoints/vehicle-tiny-416.tflite"
+    model_path = "model/vehicle-tiny-416.tflite"
             # Threshold
     iou = 0.45
     score = 0.25
